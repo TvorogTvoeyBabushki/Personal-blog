@@ -1,0 +1,28 @@
+@import "vars"; // переменные 
+@import "vender/reset"; // сторонняя библиотека, которая убирает стандартные свойства у селекторов 
+
+html {
+    font-size: 62.5%; // это 10px
+}
+
+body {
+    background-color: #181818;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; // Набор шрифтов 
+    font-size: 1.4rem; // 14px
+    color: $white;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+// BLOCKS
+
+@import "blocks/page"; 
+@import "blocks/header"; 
+@import "blocks/sidebar"; 
+@import "blocks/main"; 
+@import "blocks/container"; 
